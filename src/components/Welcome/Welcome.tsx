@@ -1,12 +1,12 @@
 import styles from './Welcome.module.scss';
-import { MangazeyaLogoHeader } from '../../assets';
+import { MangazeyaLogoWelcome } from '../../assets';
 
 const Welcome: React.FC = () => {
   return (
-    <div className={styles.welcome}>
+    <section className={styles.welcome}>
       <div className={styles.container}>
         <img
-          src={MangazeyaLogoHeader}
+          src={MangazeyaLogoWelcome}
           alt="Мангазея Девелопмент"
           loading="eager"
         />
@@ -14,8 +14,8 @@ const Welcome: React.FC = () => {
       <div className={styles.container}>
         <h1>Добро пожаловать в компанию «Мангазея Девелопмент»!</h1>
       </div>
-    </div>
+    </section>
   );
 };
 
-export { Welcome };
+export default Welcome;

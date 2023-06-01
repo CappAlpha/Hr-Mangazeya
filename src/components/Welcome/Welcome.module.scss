@@ -1,17 +1,15 @@
 @import '../../variables.scss';
 
 .welcome {
-  position: relative;
   display: flex;
-  //flex: 1 1 auto;
   align-items: center;
   flex-direction: column;
   height: 760px;
-  width: 100vw;
+  width: 100%;
   padding-top: 65px;
 
-  background: url('../../assets/div.page3-cover-block.svg');
-  background-size: 100%;
+  background: url('../../assets/WelcomeCover.svg');
+  //background-size: 100%;
   background-repeat: no-repeat;
 
   .container {
@@ -25,17 +23,16 @@
       width: min-content;
       margin: 0px auto;
 
-      filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.8980392157));
+      filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.9));
     }
 
     h1 {
-      height: min-content;
-      margin: 251px 0px 0px;
+      margin-top: 250px;
       font-weight: 700;
       font-size: 48px;
       line-height: 58px;
       color: $h1_color;
-      text-shadow: 1px 1px 2px black;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     }
   }
 }
