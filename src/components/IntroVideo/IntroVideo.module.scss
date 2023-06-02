@@ -1,26 +1,24 @@
-$border_size: 25px;
+@import '../../static/styles/variables.scss';
 
 .video_section {
+  display: flex;
+  flex-direction: column;
   padding: 30px;
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid $border_color;
 
   .video_container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 12px;
-    background-color: rgba(255, 255, 255, 0.25);
-    border-radius: $border_size;
-    box-shadow: 4.5px 4.5px 4.5px rgba(0, 0, 0, 0.035),
-      12.5px 12.5px 12.5px rgba(0, 0, 0, 0.05),
-      30.1px 30.1px 30.1px rgba(0, 0, 0, 0.065),
-      100px 100px 100px rgba(0, 0, 0, 0.1);
+    background-color: $background_color;
+    border-radius: $border_radius;
+    box-shadow: $box_shadow;
 
     > iframe {
-      border-radius: $border_size;
+      border-radius: $border_radius;
       width: 100%;
-      height: 720px;
+      min-height: calc(80 * var(--vh, 1vh));
     }
   }
 }
