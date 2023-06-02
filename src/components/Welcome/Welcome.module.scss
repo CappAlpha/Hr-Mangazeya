@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../static/styles/variables.scss';
 
 .welcome {
   display: flex;
@@ -9,8 +9,10 @@
   padding-top: 65px;
 
   background: url('../../assets/images/WelcomeCover.jpg');
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 
   .container {
     display: flex;

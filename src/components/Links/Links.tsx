@@ -12,22 +12,22 @@ const Links: React.FC = () => {
         <div className={styles.container__links}>
           <a href="https://vk.com/mangazeya_development" target="blank">
             <img src={vk} />
+            <p>ВК ГК Мангазея</p>
           </a>
-          <p>ВК ГК Мангазея</p>
         </div>
 
         <div className={styles.container__links}>
           <a href="https://t.me/gk_mangazeya" target="blank">
             <img src={telegram} />
+            <p>Телеграм канал ГК Мангазея</p>
           </a>
-          <p>Телеграм канал ГК Мангазея</p>
         </div>
 
         <div className={styles.container__links}>
           <a href="https://t.me/+6PYvy0FJsuJjMDAy" target="blank">
             <img src={telegram} />
+            <p>Телеграм канал MNGZ TEAM</p>
           </a>
-          <p>Телеграм канал MNGZ TEAM</p>
         </div>
 
         <div className={styles.container__links}>
@@ -36,8 +36,8 @@ const Links: React.FC = () => {
             target="blank"
           >
             <img src={youtube} />
+            <p>Youtube канал Мангазея Девелопмент</p>
           </a>
-          <p>Youtube канал Мангазея Девелопмент</p>
         </div>
       </div>
     </section>
