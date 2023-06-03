@@ -1,9 +1,3 @@
-<svg width="51" height="36" viewBox="0 0 51 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.679993" y="0.639893" width="50" height="35" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_1_96" transform="matrix(0.0175 0 0 0.025 0.255 0)"/>
-</pattern>
-<image id="image0_1_96" width="28" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAoCAMAAADaOGodAAAA/1BMVEUAAAAAAP9VVaozZpkrVaokSZI5VY4zTZkwYJ8tWpY5VZwzWZkxWJ0vVZc1WJUzVZkxWpw2XZs1WpY0WJc1V5oyWJs0WpgzWZk0WJgzWpk0WJoyWpoyWZg0WJo0WpgzWZo0WZkzWZoyWpkzWJgzWZoyWJkzWJk0WZkzWZgyWJkzWZozWZg0WpkzWZkyWZkzWJoyWZkzWZkyWpkyWZkzWZgyWZk0WZkyWJkzWZkzWZkzWZkzWZkzWZkzWZkzWJkzWZkzWpkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWZkzWpkzWZkzWZkzWZkzWZkzWZn///9u2suAAAAAU3RSTlMAAQMFBgcJChAREhQaGx0eHyEiMTU9SlBUVV1gYWJjanZ5enx+f4KKkJOhpKiqrLCxtLa7vcXGys/Q0dLW2N7f4eLj5ufp6uvu7/Dx8/T1+Pv9/hZajr4AAAABYktHRFTkA4ilAAAA9ElEQVQ4y8WR11LCUBRFt4oNRex4VRR7jb0EGxZQIwTF9f//4gNJuDAJj2a97Vkz+55zrhSSXTt99BsPZytj6mV0u05AcyPT7aZdLO5ztsu/0UVl1uosA3g7cxO5wgUA7nAktwDKk+1Q/AHYDd14HfiI3tkE+ApnXgYoRT2ZV4BikByAqc4I+wDHQXCBT2v2VYC7IFSBiiULANUgeMBTr/TSksYYH6iZDnsAvjFG9CF1eXt43UqQjUVJC+/xcl2StBQrf7OSpMFmnPweaB/vJbZ2XpI004qVNyOShs4TVjmRdJC055Wko3+WNcdxnlP/7Ms+/AH2IfVttbpxugAAAABJRU5ErkJggg=="/>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 159 113">
+  <path fill="#335999" d="M68.5 2.6A36 36 0 0 0 54.7 13c-4 5.6-5.7 12.2-5.7 22.5 0 4.9-.4 9.5-.8 10.2-.4.6-2.3 1.3-4.2 1.5l-3.5.3-.3 28c-.1 15.4 0 29 .3 30.2l.5 2.3h74V47h-3.4c-4.3 0-4.6-.9-4.6-12 0-4.9-.4-9.9-.9-11.2-.5-1.3-1.2-3.5-1.5-4.9a36 36 0 0 0-12.2-14C89.5 3.1 87 2.7 79.6 2.4c-5-.2-10-.1-11.1.2zm15.4 9c4 1.6 8 6.3 10 11.7 1.5 4 1.4 19.9-.2 22-1.1 1.6-3 1.7-16.7 1.5l-15.5-.3-.3-12.6c-.3-12.4-.2-12.6 2.6-16.5 5.1-7 12.2-9 20.1-5.8zM80.5 62c6.3 2.4 8.7 11.3 4.5 16.7-1.5 1.9-2 4.1-2 8.4 0 6.7-1.9 8.9-7.2 8.3-4.1-.5-4.8-1.7-4.8-8.3 0-4.2-.5-6-2.1-7.7-2.6-2.7-3.4-9.1-1.7-12.4 1.3-2.4 7-6 9.5-6 .6 0 2.4.5 3.8 1z"/>
 </svg>
