@@ -1,9 +1,11 @@
 @import '../../static/styles/variables.scss';
 
+$border_radius: 4%;
+
 .video_section {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: $outer_padding;
   border-bottom: 1px solid $border_color;
 
   .video_container {
@@ -11,11 +13,13 @@
     align-items: center;
     justify-content: center;
     padding: 12px;
+    border: 2px solid $border_color;
     background-color: $background_color;
     border-radius: $border_radius;
     box-shadow: $box_shadow;
 
     > iframe {
+      border: 2px solid $border_color;
       border-radius: $border_radius;
       width: 100%;
       min-height: calc(80 * var(--vh, 1vh));

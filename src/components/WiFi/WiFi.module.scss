@@ -1,0 +1,46 @@
+@import '../../static/styles/variables.scss';
+
+.info_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $outer_padding;
+  border-bottom: 1px solid $border_color;
+
+  .container {
+    background-color: $background_color;
+    border: 2px solid $border_color;
+    border-radius: $border_radius;
+    padding: 20px;
+    //max-width: max-content;
+    box-shadow: $box_shadow;
+
+    .h_container {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 12px;
+
+      padding-bottom: 12px;
+      border-bottom: 1px solid $border_color;
+
+      > img {
+        margin-right: 15px;
+        width: 50px;
+        height: 35px;
+
+        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.9));
+      }
+    }
+
+    .p_container {
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      max-width: $boxInfo_width;
+
+      a {
+        margin: 0px 6px;
+      }
+    }
+  }
+}

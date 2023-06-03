@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding: 45px $outer_padding 45px $outer_padding;
-  border-bottom: 2px solid $border_color;
+  border-bottom: 1px solid $border_color;
 
   .container {
     background-color: $background_color;
@@ -22,13 +22,6 @@
       margin-bottom: 20px;
       padding-bottom: 12px;
       border-bottom: 1px solid $border_color;
-
-      > h2 {
-        font-weight: 500;
-        font-size: $h2_size;
-        color: $h_color;
-        text-shadow: 1px 2px 3px black;
-      }
     }
 
     .container_links {
@@ -42,7 +35,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        min-height: 150px;
+        min-height: 135px;
         max-width: 140px;
         margin: 0px 20px;
         padding: 10px;
@@ -52,20 +45,13 @@
         > a {
           text-decoration: none;
           > img {
+            margin-top: 5px;
+            margin-bottom: 15px;
             height: 70px;
             width: 70px;
 
             filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.9));
           }
-        }
-
-        p {
-          margin-top: 10px;
-          font-weight: 500;
-          font-size: 16px;
-          line-height: normal;
-          color: $p_color;
-          text-shadow: 1px 2px 3px black;
         }
       }
 

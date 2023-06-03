@@ -27,14 +27,9 @@
 
       filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.9));
     }
+  }
 
-    h1 {
-      margin-top: 250px;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 58px;
-      color: $h_color;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    }
+  .container:last-child {
+    margin-top: 250px;
   }
 }

@@ -5,5 +5,17 @@ import youtube from './icons/YouTube.png';
 import building1 from './images/building1.png';
 import building2 from './images/building2.png';
 import building3 from './images/building3.png';
+import security from './icons/security.svg';
+import wifi from './icons/wifi.svg';
 
-export { Logo, vk, telegram, youtube, building1, building2, building3 };
+export {
+  Logo,
+  vk,
+  telegram,
+  youtube,
+  building1,
+  building2,
+  building3,
+  security,
+  wifi,
+};
