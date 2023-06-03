@@ -12,19 +12,24 @@ $border_radius: 4%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px;
-    border: 2px inset $border_color;
-    background-color: $background_color;
-    border-radius: $border_radius;
-    box-shadow: $box_shadow;
+    // padding: 12px;
+    // border: 2px inset $border_color;
+    // background-color: $background_color;
+    // border-radius: $border_radius;
+    //box-shadow: $box_shadow;
+    position: relative;
+    aspect-ratio: 16 / 9;
 
     > iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
       border: 2px solid $border_color;
       border-radius: $border_radius;
+      background-color: $background_color;
+      box-shadow: $box_shadow;
       width: 100%;
-      min-height: calc(
-        80 * var(--vh, 1vh)
-      ); //сделать поворот видео на мобилках?
+      height: 100%; //сделать поворот видео на мобилках?
     }
   }
 }
