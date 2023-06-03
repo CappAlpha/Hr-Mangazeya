@@ -30,25 +30,15 @@ const AboutCompany: React.FC = () => {
         </div>
       </div>
       <div className={styles.buildings_container}>
-        {/* картинки бы другие найти немного или переделать? */}
-        <img
-          src={building1}
-          alt="Здание"
-          loading="lazy"
-          className={styles.buildings_img}
-        />
-        <img
-          src={building2}
-          alt="Здание"
-          loading="lazy"
-          className={styles.buildings_img}
-        />
-        <img
-          src={building3}
-          alt="Здание"
-          loading="lazy"
-          className={styles.buildings_img}
-        />
+        <div className={styles.buildings_img_container}>
+          <img src={building1} alt="Здание" loading="lazy" />
+        </div>
+        <div className={styles.buildings_img_container}>
+          <img src={building2} alt="Здание" loading="lazy" />
+        </div>
+        <div className={styles.buildings_img_container}>
+          <img src={building3} alt="Здание" loading="lazy" />
+        </div>
       </div>
     </section>
   );

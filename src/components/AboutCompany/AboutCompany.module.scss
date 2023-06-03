@@ -10,9 +10,9 @@
   .container {
     background-color: $background_color;
     border: 2px solid $border_color;
-    border-radius: 25px 0px 0px 5%; //на мобилках сделать чтобы было скруглённое, когда блок правый вниз уходит.
+    border-radius: 25px 5% 0px 0px; //на широких мониторах сделать карточку.
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     box-shadow: $box_shadow;
 
     .h2_container {
@@ -33,18 +33,26 @@
 
   .buildings_container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
     background-color: $background_color;
     border: 2px solid $border_color;
-    border-radius: 0px 5% 25px 0px; //на мобилках сделать чтобы было скруглённое, когда блок вниз уходит.
+    border-radius: 0px 0px 25px 5%; //на широких мониторах сделать карточку
     padding: 20px;
-    max-width: 800px;
     box-shadow: $box_shadow;
 
-    .buildings_img {
-      border: 1px solid $border_color;
-      //border-radius: 5px;
-      width: 500px;
-      max-height: 500px;
+    .buildings_img_container {
+      display: flex;
+      justify-content: center;
+      max-height: 300px;
+      width: 300px;
+
+      img {
+        object-fit: cover;
+        border: 1px solid $border_color;
+        border-radius: 30px;
+      }
     }
   }
 }

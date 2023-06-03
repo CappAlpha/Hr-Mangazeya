@@ -22,7 +22,9 @@ $border_radius: 4%;
       border: 2px solid $border_color;
       border-radius: $border_radius;
       width: 100%;
-      min-height: calc(80 * var(--vh, 1vh));
+      min-height: calc(
+        80 * var(--vh, 1vh)
+      ); //сделать поворот видео на мобилках?
     }
   }
 }
