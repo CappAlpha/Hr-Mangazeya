@@ -37,7 +37,7 @@ const Links: React.FC = () => {
               target="blank"
             >
               <img src={youtube} alt="YouTube" />
-              <p>Youtube канал Мангазея Девелопмент</p>
+              <p>Youtube канал Мангазея</p>
             </a>
           </div>
         </div>

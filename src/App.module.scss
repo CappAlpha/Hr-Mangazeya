@@ -16,7 +16,6 @@
     font-size: 48px;
     line-height: 1.1;
     color: rgba(255, 255, 255, 0.95);
-    // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.6);
   }
 
@@ -25,22 +24,20 @@
     font-size: 26px;
     line-height: 1.2;
     color: rgba(255, 255, 255, 0.95);
-    // text-shadow: 1px 1px 3px black;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.6);
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.85);
-    //text-shadow: 1px 1px 3px black;
-    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.6);
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.3);
   }
 
   a {
     text-decoration: none;
-    color: rgba(47, 89, 179, 1);
+    color: rgb(57, 102, 201);
   }
   a:hover {
     color: rgba(47, 89, 179, 0.7);
@@ -48,5 +45,10 @@
   a:active {
     opacity: 60%;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  li {
+    margin-left: 6px;
+    line-height: 2;
   }
 }

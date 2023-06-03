@@ -7,6 +7,7 @@ import building2 from './images/building2.png';
 import building3 from './images/building3.png';
 import security from './icons/security.svg';
 import wifi from './icons/wifi.svg';
+import portal from './icons/portal.svg';
 
 export {
   Logo,
@@ -18,4 +19,5 @@ export {
   building3,
   security,
   wifi,
+  portal,
 };

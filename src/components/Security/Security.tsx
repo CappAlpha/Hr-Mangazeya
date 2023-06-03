@@ -17,7 +17,7 @@ const Security: React.FC = () => {
               href="http://hr.mangazeya.local/assets/security_notions.pdf"
               target="blank"
             >
-              информационном письме
+              &nbsp;информационном письме&nbsp;
             </a>
             с которым, рекомендуем ознакомиться для сохранения безопасности
             данных компании. Также, есть не большая
@@ -25,7 +25,7 @@ const Security: React.FC = () => {
               href="http://hr.mangazeya.local/assets/security_password.pdf"
               target="blank"
             >
-              памятка
+              &nbsp;памятка&nbsp;
             </a>
             с рекомендациями по формированию нового пароля.
           </p>
