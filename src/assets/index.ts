@@ -5,6 +5,7 @@ import youtube from './icons/YouTube.png';
 import building1 from './images/building1.png';
 import building2 from './images/building2.png';
 import building3 from './images/building3.png';
+import building4 from './images/building4.png';
 import security from './icons/security.svg';
 import wifi from './icons/wifi.svg';
 import portal from './icons/portal.svg';
@@ -18,6 +19,7 @@ export {
   building1,
   building2,
   building3,
+  building4,
   security,
   wifi,
   portal,

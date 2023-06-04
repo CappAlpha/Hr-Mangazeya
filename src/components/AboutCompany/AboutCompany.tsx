@@ -1,5 +1,5 @@
 import styles from './AboutCompany.module.scss';
-import { building1, building2, building3 } from '../../assets';
+import { building1, building2, building3, building4 } from '../../assets';
 
 const AboutCompany: React.FC = () => {
   return (
@@ -38,6 +38,9 @@ const AboutCompany: React.FC = () => {
         </div>
         <div className={styles.buildings_img_container}>
           <img src={building3} alt="Здание" loading="lazy" />
+        </div>
+        <div className={styles.buildings_img_container}>
+          <img src={building4} alt="Здание" loading="lazy" />
         </div>
       </div>
     </section>
