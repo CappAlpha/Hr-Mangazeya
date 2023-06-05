@@ -1,5 +1,6 @@
 import styles from './Welcome.module.scss';
 import { Logo } from '../../assets';
+import Links from '../Links/Links';
 
 const Welcome: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Welcome: React.FC = () => {
       <div className={styles.container}>
         <h1>Добро пожаловать в компанию «Мангазея Девелопмент»!</h1>
       </div>
+      <Links />
     </section>
   );
 };

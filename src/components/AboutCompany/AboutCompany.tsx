@@ -1,9 +1,16 @@
 import styles from './AboutCompany.module.scss';
-import { building1, building2, building3, building4 } from '../../assets';
 
 const AboutCompany: React.FC = () => {
   return (
     <section className={styles.about_section}>
+      <div className={styles.video_container}>
+        <iframe
+          src="https://www.youtube.com/embed/ECLMsRYrw1Q"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
       <div className={styles.container}>
         <div className={styles.h2_container}>
           <h2>О компании</h2>
@@ -28,19 +35,12 @@ const AboutCompany: React.FC = () => {
             направлениях реального сектора экономики.
           </p>
         </div>
-      </div>
-      <div className={styles.buildings_container}>
-        <div className={styles.buildings_img_container}>
-          <img src={building1} alt="Здание" loading="lazy" />
-        </div>
-        <div className={styles.buildings_img_container}>
-          <img src={building2} alt="Здание" loading="lazy" />
-        </div>
-        <div className={styles.buildings_img_container}>
-          <img src={building3} alt="Здание" loading="lazy" />
-        </div>
-        <div className={styles.buildings_img_container}>
-          <img src={building4} alt="Здание" loading="lazy" />
+        <div className={styles.p_container}>
+          <p>
+            «Мангазея Девелопмент» входит в состав российской
+            диверсифицированной группы компаний «Мангазея», которая ведет свою
+            деятельность в пяти направлениях реального сектора экономики.
+          </p>
         </div>
       </div>
     </section>

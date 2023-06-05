@@ -4,24 +4,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px $outer_padding 80px $outer_padding;
-  border-bottom: 1px solid $border_color;
+  margin-top: 300px;
 
   .container {
-    background-color: $background_color;
-    border: 3px solid $border_color;
-    padding: $border_size;
-    border-radius: $border_radius;
-    box-shadow: $box_shadow;
-
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
     .h2_container {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      margin-bottom: 12px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid $border_color;
+      max-width: 380px;
+      margin-bottom: 40px;
     }
 
     .container_links {
@@ -37,45 +30,35 @@
         text-align: center;
         min-height: 130px;
         max-width: 140px;
-        margin: 0px 20px;
-        padding: 10px;
-
-        border: 1px solid rgba(255, 255, 255, 0); //костыль для того чтобы при наведении не дёргались иконки
+        margin: 0px 30px;
 
         > a {
           text-decoration: none;
           > img {
-            height: 70px;
-            width: 70px;
+            height: 60px;
+            width: 60px;
 
             filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.9));
           }
 
           > p {
+            color: #ffffff;
             margin-top: 5px;
           }
         }
       }
 
       .container_link:hover {
-        background: linear-gradient(
-          180deg,
-          rgba(188, 165, 255, 0) 0%,
-          #214d76 100%
-        );
-        border: 1px solid $border_color;
-        border-radius: $border_size;
-
         -webkit-animation-name: pulse;
         animation-name: pulse;
         -webkit-animation-timing-function: ease-in-out;
         animation-timing-function: ease-in-out;
-        -webkit-animation-duration: 1s;
-        animation-duration: 1s;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
-        -webkit-animation-iteration-count: 6;
-        animation-iteration-count: 6;
+        -webkit-animation-iteration-count: 4;
+        animation-iteration-count: 4;
       }
 
       .container_link:active {

@@ -6,7 +6,7 @@ const Links: React.FC = () => {
     <section className={styles.links_section}>
       <div className={styles.container}>
         <div className={styles.h2_container}>
-          <h2>Ссылки на наши официальные социальные сети, присоединяйтесь:</h2>
+          <h3>Ссылки на наши официальные социальные сети, присоединяйтесь:</h3>
         </div>
 
         <div className={styles.container_links}>
