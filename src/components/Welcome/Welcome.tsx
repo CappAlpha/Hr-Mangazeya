@@ -12,6 +12,7 @@ const Welcome: React.FC = () => {
         <h1>Добро пожаловать в компанию «Мангазея Девелопмент»!</h1>
       </div>
       <Links />
+      <div className={styles.welcome_gradient}></div>
     </section>
   );
 };
