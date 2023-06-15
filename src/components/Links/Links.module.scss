@@ -8,9 +8,9 @@
     justify-content: center;
     flex-direction: column;
     z-index: 5;
-    margin-top: auto;
+    margin: auto 0;
 
-    .h2_container {
+    .h3_container {
       display: flex;
       align-items: center;
       text-align: center;
@@ -94,30 +94,21 @@
   }
 }
 
-@media (max-width: $breakpoint_sm) {
+@media (max-width: $breakpoint_md) {
   .links_section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 5;
-    margin-top: auto;
-    padding: 0px 20px;
-
-    .h2_container {
+    .h3_container {
       margin-bottom: 20px;
+      h3 {
+        font-size: 16px;
+      }
     }
 
     .container_links {
       display: flex;
-      align-items: center;
-      flex-wrap: wrap;
       justify-content: center;
 
       .container_link {
         min-height: 100px;
-        width: 140px;
         margin-top: 5px;
         > a {
           img {
@@ -126,7 +117,7 @@
           }
 
           p {
-            font-size: 14px;
+            font-size: 12px;
           }
         }
       }
