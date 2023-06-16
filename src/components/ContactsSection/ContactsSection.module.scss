@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 75px 40px;
+  background: #e9e8e6;
+
+  h2 {
+    margin-bottom: 80px;
+    color: #1a1a33;
+  }
+
+  .card {
+    display: flex;
+    max-width: 1200px;
+    padding: 20px 30px;
+    column-gap: 284px;
+    border: 1px solid #1b1835;
+    border-radius: 10px;
+
+    p {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #1a1a33;
+    }
+  }
+}

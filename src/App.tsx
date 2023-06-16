@@ -2,6 +2,7 @@ import styles from './App.module.scss';
 import Welcome from './components/Welcome/Welcome';
 import AboutCompany from './components/AboutCompany/AboutCompany';
 import InfoSection from './components/InfoSection/InfoSection';
+import ContactsSection from './components/ContactsSection/ContactsSection';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Welcome />
       {/* <AboutCompany /> */}
       <InfoSection />
+      <ContactsSection />
     </div>
   );
 }
