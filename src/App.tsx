@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={styles.wrapper}>
       <Welcome />
-      <AboutCompany />
+      {/* <AboutCompany /> */}
       <InfoSection />
     </div>
   );
