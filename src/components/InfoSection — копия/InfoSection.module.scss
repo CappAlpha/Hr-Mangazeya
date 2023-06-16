@@ -1,0 +1,40 @@
+@import '../../static/styles/variables.scss';
+
+.info_section {
+  display: flex;
+  justify-content: center;
+  padding: $outer_padding;
+  background-color: #1a1a33;
+
+  .container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    background: #e9e8e6;
+    box-shadow: 8px 8px 20px #000000;
+    border-radius: 30px;
+    padding: 40px;
+
+    img {
+      margin-right: 50px;
+      margin-left: 10px;
+      width: min-content;
+      height: min-content;
+    }
+
+    .text_container {
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+
+      h3 {
+        margin-bottom: 17px;
+      }
+
+      p {
+        color: #000000;
+      }
+    }
+  }
+}

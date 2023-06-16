@@ -7,13 +7,11 @@
     flex-wrap: wrap;
     padding: $outer_padding;
 
-    border-bottom: 1px solid $border_color;
-
     .video_container {
       display: flex;
       margin-top: 64px;
       width: 650px;
-      height: 464px;
+      height: 450px;
 
       > iframe {
         border: 2px solid $border_color;

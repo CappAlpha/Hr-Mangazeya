@@ -1,16 +1,14 @@
-import styles from './Security.module.scss';
+import styles from './InfoSection.module.scss';
 import { security } from '../../assets';
 
-const Security: React.FC = () => {
+const InfoSection: React.FC = () => {
   return (
     <section className={styles.info_section}>
       <div className={styles.container}>
-        <div className={styles.h_container}>
-          <img src={security} alt="Безопасность" loading="lazy" />
-          <h2>Правила информационной безопасности</h2>
-        </div>
+        <img src={security} alt="Безопасность" loading="lazy" />
 
-        <div className={styles.p_container}>
+        <div className={styles.text_container}>
+          <h3>Правила информационной безопасности</h3>
           <p>
             Основные правила безопасности мы сформировали в
             <a
@@ -35,4 +33,4 @@ const Security: React.FC = () => {
   );
 };
 
-export default Security;
+export default InfoSection;
