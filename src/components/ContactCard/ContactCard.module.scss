@@ -1,46 +1,44 @@
-@media (max-width: $breakpoint_xxl) {
-  .root {
-    display: flex;
+.root {
+  display: flex;
+  align-items: center;
+  background: #335999;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 30px;
+
+  border-radius: 10px;
+
+  p {
+    margin-right: 5px;
     align-items: center;
-    background: #335999;
-    margin-top: 10px;
-    width: 100%;
-    max-width: 1200px;
-    padding: 20px 30px;
-
-    border-radius: 10px;
-
-    p {
-      margin-right: 5px;
-      align-items: center;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      color: #ffffff;
-    }
-
-    p:first-child {
-      font-weight: 700;
-      width: 31.5%;
-    }
-
-    p:nth-child(2) {
-      width: 27.7%;
-    }
-
-    p:nth-child(3) {
-      width: 31%;
-      text-decoration: underline;
-    }
-
-    p:last-child {
-      width: 9.2%;
-      margin-right: 0;
-    }
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
   }
-  .root:nth-child(even) {
-    background: #1f1f66;
+
+  p:first-child {
+    font-weight: 700;
+    width: 31.5%;
   }
+
+  p:nth-child(2) {
+    width: 27.7%;
+  }
+
+  p:nth-child(3) {
+    width: 31%;
+    text-decoration: underline;
+  }
+
+  p:last-child {
+    width: 9.2%;
+    margin-right: 0;
+  }
+}
+.root:nth-child(even) {
+  background: #1f1f66;
 }
 
 @media (max-width: 1261px) {

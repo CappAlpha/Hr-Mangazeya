@@ -1,60 +1,58 @@
-@media (max-width: $breakpoint_xxl) {
-  .root {
-    position: relative;
-    z-index: 0;
+.root {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url('../../assets/images/WelcomeCover.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .container {
+    z-index: 5;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto 0;
 
-    width: 100%;
-    height: 100vh;
-
-    background: url('../../assets/images/WelcomeCover.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    .container {
-      z-index: 5;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      max-width: 900px;
-      margin: auto 0;
-
-      img {
-        max-height: min-content;
-        max-width: min-content;
-      }
-    }
-
-    .container:first-child {
-      margin-top: 120px;
+    img {
+      max-height: min-content;
+      max-width: min-content;
     }
   }
 
-  .welcome::after {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    left: 0px;
-    top: 0px;
-
-    background: #1b1835;
-    opacity: 0.4;
+  .container:first-child {
+    margin-top: 120px;
   }
+}
 
-  .welcome_gradient {
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    bottom: 0;
+.welcome::after {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
 
-    background: linear-gradient(180deg, rgba(27, 24, 53, 0) 0%, #1b1835 100%);
-  }
+  background: #1b1835;
+  opacity: 0.4;
+}
+
+.welcome_gradient {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  bottom: 0;
+
+  background: linear-gradient(180deg, rgba(27, 24, 53, 0) 0%, #1b1835 100%);
 }
 
 @media (max-width: $breakpoint_md) {
