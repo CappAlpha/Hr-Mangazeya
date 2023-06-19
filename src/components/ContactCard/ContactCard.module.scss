@@ -2,7 +2,6 @@
   .root {
     display: flex;
     align-items: center;
-    //justify-content: space-between;
     background: #335999;
     margin-top: 10px;
     width: 100%;
@@ -22,16 +21,21 @@
 
     p:first-child {
       font-weight: 700;
-      width: 31%;
+      width: 31.5%;
     }
 
     p:nth-child(2) {
-      width: 28%;
+      width: 27.7%;
     }
 
     p:nth-child(3) {
       width: 31%;
       text-decoration: underline;
+    }
+
+    p:last-child {
+      width: 9.2%;
+      margin-right: 0;
     }
   }
   .root:nth-child(even) {
@@ -39,15 +43,31 @@
   }
 }
 
-@media (max-width: $breakpoint_md) {
+@media (max-width: 1261px) {
   .root {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 15px;
     p {
-      width: 100%;
-      margin-right: 5px;
+      margin-right: 10px;
       font-size: 14px;
+    }
+
+    p:first-child {
+      font-weight: 700;
+      width: 70%;
+    }
+
+    p:nth-child(2) {
+      width: 20%;
+    }
+
+    p:nth-child(3) {
+      width: 70%;
+    }
+
+    p:last-child {
+      width: 20.8%;
     }
   }
 }
