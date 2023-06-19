@@ -1,16 +1,17 @@
 .root {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 75px 40px;
   background: #335999;
   margin-top: 10px;
+  width: 100%;
   max-width: 1200px;
   padding: 20px 30px;
 
   border-radius: 10px;
 
   p {
-    margin-right: 125px;
     align-items: center;
     font-weight: 400;
     font-size: 16px;
@@ -27,7 +28,7 @@
   }
 
   p:last-child {
-    //margin-right: 70px;
+    margin-right: 70px;
   }
 }
 .root:nth-child(even) {

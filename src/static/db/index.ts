@@ -40,4 +40,16 @@ export const contact = [
     email: 'g.sorokina@mangazeya.ru',
     number: 4744,
   },
+  {
+    title: 'Ведущий специалист по кадрам',
+    name: 'Галина Сорокина',
+    email: 'g.sorokina@mangazeya.ru',
+    number: 4744,
+  },
+  {
+    title: 'Ведущий специалист по кадрам',
+    name: 'Галина Сорокина',
+    email: 'g.sorokina@mangazeya.ru',
+    number: 4744,
+  },
 ];
