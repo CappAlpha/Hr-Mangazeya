@@ -4,7 +4,7 @@ import Links from '../Links/Links';
 
 const Welcome: React.FC = () => {
   return (
-    <section className={styles.welcome}>
+    <section className={styles.root}>
       <div className={styles.container}>
         <img src={Logo} alt="Мангазея Девелопмент" loading="eager" />
       </div>

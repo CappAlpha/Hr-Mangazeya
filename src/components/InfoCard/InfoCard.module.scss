@@ -2,6 +2,7 @@
   .root {
     display: flex;
     align-items: center;
+    flex-direction: row;
     max-width: 1200px;
     background: #e9e8e6;
     box-shadow: 8px 8px 20px #000000;
@@ -70,10 +71,19 @@
 @media (max-width: $breakpoint_xl) {
   .root {
     img {
+      box-sizing: border-box;
+    }
+  }
+
+  .root:nth-child(3) {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    img {
+      margin: 0;
       margin-bottom: 20px;
       box-sizing: border-box;
-      max-width: 100%;
-      max-height: 80%;
     }
   }
 
@@ -87,13 +97,14 @@
       margin: 0;
       margin-bottom: 20px;
       box-sizing: border-box;
+
       max-width: 100%;
       max-height: 80%;
     }
   }
 }
 
-@media (max-width: $breakpoint_md) {
+@media (max-width: $breakpoint_sm) {
   .root {
     justify-content: center;
     flex-wrap: wrap;

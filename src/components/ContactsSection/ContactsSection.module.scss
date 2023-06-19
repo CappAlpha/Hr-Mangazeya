@@ -13,7 +13,6 @@
 
     .card {
       display: flex;
-      justify-content: space-between;
       width: 100%;
       max-width: 1200px;
       padding: 20px 30px;
@@ -27,6 +26,19 @@
         line-height: 24px;
         color: #1a1a33;
       }
+
+      p:first-child {
+        font-weight: 700;
+        width: 32%;
+      }
+
+      p:nth-child(2) {
+        width: 28%;
+      }
+
+      p:nth-child(3) {
+        width: 31%;
+      }
     }
   }
 }
@@ -37,11 +49,16 @@
       font-size: 24px;
       margin-bottom: 40px;
     }
+
     .card {
-      padding: 10px 15px;
-      p {
-        font-size: 14px;
-      }
+      display: none;
     }
+
+    // .card {
+    //   padding: 10px 15px;
+    //   p {
+    //     font-size: 14px;
+    //   }
+    // }
   }
 }

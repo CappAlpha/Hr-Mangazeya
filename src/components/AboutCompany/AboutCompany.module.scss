@@ -1,9 +1,10 @@
 @media (max-width: $breakpoint_xxl) {
-  .about_section {
+  .root {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: $outer_padding;
+    background-color: #d2c8bf;
 
     .video_container {
       display: flex;
@@ -25,12 +26,12 @@
       flex-direction: column;
       max-width: 668px;
 
-      .h2_container {
+      h2 {
         display: flex;
         justify-content: start;
       }
 
-      .p_container {
+      p {
         display: flex;
         align-items: center;
         text-align: justify;
@@ -41,7 +42,7 @@
 }
 
 @media (max-width: $breakpoint_xl) {
-  .about_section {
+  .root {
     .video_container {
       width: 668px;
       margin-top: 40px;
@@ -51,7 +52,7 @@
 }
 
 @media (max-width: $breakpoint_sm) {
-  .about_section {
+  .root {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -76,10 +77,6 @@
       p {
         font-size: 12px;
         line-height: 1.6;
-      }
-
-      .p_container {
-        margin-top: 20px;
       }
     }
   }

@@ -3,10 +3,8 @@ import { vk, telegram, youtube } from '../../assets';
 
 const Links: React.FC = () => {
   return (
-    <section className={styles.links_section}>
-      <div className={styles.h3_container}>
-        <h3>Ссылки на наши официальные социальные сети, присоединяйтесь:</h3>
-      </div>
+    <section className={styles.root}>
+      <h3>Ссылки на наши официальные социальные сети, присоединяйтесь:</h3>
 
       <div className={styles.container_links}>
         <div className={styles.container_link}>

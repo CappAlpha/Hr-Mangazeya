@@ -2,8 +2,7 @@
   .root {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 75px 40px;
+    //justify-content: space-between;
     background: #335999;
     margin-top: 10px;
     width: 100%;
@@ -13,6 +12,7 @@
     border-radius: 10px;
 
     p {
+      margin-right: 5px;
       align-items: center;
       font-weight: 400;
       font-size: 16px;
@@ -22,15 +22,17 @@
 
     p:first-child {
       font-weight: 700;
+      width: 31%;
+    }
+
+    p:nth-child(2) {
+      width: 28%;
     }
 
     p:nth-child(3) {
+      width: 31%;
       text-decoration: underline;
     }
-
-    // p:last-child {
-    //   margin-right: 70px;
-    // }
   }
   .root:nth-child(even) {
     background: #1f1f66;
@@ -39,9 +41,12 @@
 
 @media (max-width: $breakpoint_md) {
   .root {
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 15px;
     p {
+      width: 100%;
+      margin-right: 5px;
       font-size: 14px;
     }
   }
