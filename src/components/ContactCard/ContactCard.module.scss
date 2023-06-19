@@ -9,7 +9,8 @@
 
   border-radius: 10px;
 
-  p {
+  p,
+  a {
     margin-right: 5px;
     align-items: center;
     font-weight: 400;
@@ -27,7 +28,7 @@
     width: 27.7%;
   }
 
-  p:nth-child(3) {
+  a {
     width: 31%;
     text-decoration: underline;
   }
@@ -46,7 +47,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 15px;
-    p {
+    p,
+    a {
       margin-right: 10px;
       font-size: 14px;
     }
@@ -60,7 +62,7 @@
       width: 20%;
     }
 
-    p:nth-child(3) {
+    a {
       width: 70%;
     }
 
