@@ -33,7 +33,7 @@
   }
 }
 
-.welcome::after {
+.root::after {
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -44,7 +44,7 @@
   opacity: 0.4;
 }
 
-.welcome_gradient {
+.root_gradient {
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: $breakpoint_md) {
-  .welcome {
+  .root {
     max-width: 760px;
     .container {
       max-width: 400px;
@@ -75,7 +75,7 @@
 }
 
 @media (max-width: $breakpoint_sm) {
-  .welcome {
+  .root {
     max-width: 600px;
     .container {
       > h1 {
